@@ -8,6 +8,8 @@ public class playerCollision : MonoBehaviour
     public buttonHideShow hideShow;
     public gameOverHideShow goHideShow;
     public static bool playerIsDead = false;
+    public bool LockPlayerScore;
+    private float theScore;
 
     void Start()
     {
@@ -31,6 +33,16 @@ public class playerCollision : MonoBehaviour
 
         }
     }
+
+    //public float playerScore
+    //{
+    //    get { return value; }
+    //    set
+    //    {
+    //        if (!LockPlayerScore)
+    //            theScore = value;
+    //    }
+    //}
 
 
 }
